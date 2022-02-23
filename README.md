@@ -1,5 +1,5 @@
 # Mary
-An old C project containing a prototype regex engine.
+An old C project containing a prototype regex engine. Actively developed from June 19 2018 to November 5 2018.
 
 ## Licenses
 - There are two licenses that are in the same folders as each font file and a license for the Unicode data in its folder.
