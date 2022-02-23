@@ -1,0 +1,6 @@
+[include]
+  Mary/include
+
+[source]
+  Mary/src
+  Mary/app

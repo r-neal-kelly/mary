@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mary\app\GCC.c" />
+    <ClCompile Include="Mary\app\Main.c" />
+    <ClCompile Include="Mary\src\Allocator.c" />
+    <ClCompile Include="Mary\src\Arena.c" />
+    <ClCompile Include="Mary\src\Bitbool.c" />
+    <ClCompile Include="Mary\src\Bitmap.c" />
+    <ClCompile Include="Mary\src\C_String.c" />
+    <ClCompile Include="Mary\src\Div.c" />
+    <ClCompile Include="Mary\src\Element.c" />
+    <ClCompile Include="Mary\src\Event.c" />
+    <ClCompile Include="Mary\src\File.c" />
+    <ClCompile Include="Mary\src\GL_Texture.c" />
+    <ClCompile Include="Mary\src\Hashmap.c" />
+    <ClCompile Include="Mary\src\Lang.c" />
+    <ClCompile Include="Mary\src\List.c" />
+    <ClCompile Include="Mary\src\Mary.c" />
+    <ClCompile Include="Mary\src\OpenGL.c" />
+    <ClCompile Include="Mary\src\OS.c" />
+    <ClCompile Include="Mary\src\Pool.c" />
+    <ClCompile Include="Mary\src\Regex.c" />
+    <ClCompile Include="Mary\src\String.c" />
+    <ClCompile Include="Mary\src\Text.c" />
+    <ClCompile Include="Mary\src\Unicode.c" />
+    <ClCompile Include="Mary\src\UTF.c" />
+    <ClCompile Include="Mary\src\Utils.c" />
+    <ClCompile Include="Mary\src\Varray.c" />
+    <ClCompile Include="Mary\src\Vector.c" />
+    <ClCompile Include="Mary\src\Window.c" />
+    <ClCompile Include="Mary\src\Wordmap.c" />
+    <ClCompile Include="Mary\test\Test.c" />
+    <ClCompile Include="Mary\test\Test_Arena.c" />
+    <ClCompile Include="Mary\test\Test_Regex.c" />
+    <ClCompile Include="Mary\test\Test_String.c" />
+    <ClCompile Include="Mary\test\Test_Unicode.c" />
+    <ClCompile Include="Mary\test\Test_Vector.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mary\include\Mary\Allocator.h" />
+    <ClInclude Include="Mary\include\Mary\App\GCC.h" />
+    <ClInclude Include="Mary\include\Mary\Arena.h" />
+    <ClInclude Include="Mary\include\Mary\Bitbool.h" />
+    <ClInclude Include="Mary\include\Mary\Bitmap.h" />
+    <ClInclude Include="Mary\include\Mary\C_String.h" />
+    <ClInclude Include="Mary\include\Mary\Div.h" />
+    <ClInclude Include="Mary\include\Mary\Element.h" />
+    <ClInclude Include="Mary\include\Mary\Event.h" />
+    <ClInclude Include="Mary\include\Mary\File.h" />
+    <ClInclude Include="Mary\include\Mary\GL_Texture.h" />
+    <ClInclude Include="Mary\include\Mary\Hashmap.h" />
+    <ClInclude Include="Mary\include\Mary\Lang.h" />
+    <ClInclude Include="Mary\include\Mary\List.h" />
+    <ClInclude Include="Mary\include\Mary\Macros\String_m.h" />
+    <ClInclude Include="Mary\include\Mary\Macros\UTF_m.h" />
+    <ClInclude Include="Mary\include\Mary\Macros\Vector_m.h" />
+    <ClInclude Include="Mary\include\Mary\Mary.h" />
+    <ClInclude Include="Mary\include\Mary\Namespace\Vector_Out.h" />
+    <ClInclude Include="Mary\include\Mary\Namespace\Vector_In.h" />
+    <ClInclude Include="Mary\include\Mary\OpenGL.h" />
+    <ClInclude Include="Mary\include\Mary\OS.h" />
+    <ClInclude Include="Mary\include\Mary\Pool.h" />
+    <ClInclude Include="Mary\include\Mary\Regex.h" />
+    <ClInclude Include="Mary\include\Mary\String.h" />
+    <ClInclude Include="Mary\include\Mary\Test\Test_Arena.h" />
+    <ClInclude Include="Mary\include\Mary\Test\Test.h" />
+    <ClInclude Include="Mary\include\Mary\Text.h" />
+    <ClInclude Include="Mary\include\Mary\Unicode.h" />
+    <ClInclude Include="Mary\include\Mary\UTF.h" />
+    <ClInclude Include="Mary\include\Mary\Utils.h" />
+    <ClInclude Include="Mary\include\Mary\Varray.h" />
+    <ClInclude Include="Mary\include\Mary\Vector.h" />
+    <ClInclude Include="Mary\include\Mary\Window.h" />
+    <ClInclude Include="Mary\include\Mary\Wordmap.h" />
+    <ClInclude Include="Mary\src\test\Vector64_Test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mary\shaders\div_f.shader" />
+    <None Include="Mary\shaders\div_v.shader" />
+    <None Include="Mary\shaders\text_f.shader" />
+    <None Include="Mary\shaders\text_v.shader" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{628E1290-4E9E-414C-BA9C-3043BD5B6DDB}</ProjectGuid>
+    <RootNamespace>Maryc</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>Mary_c</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>.\Mary\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>.\Mary\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>.\Mary\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>.\Mary\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996; 4554; 4116</DisableSpecificWarnings>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996; 4554; 4116</DisableSpecificWarnings>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996; 4554; 4116</DisableSpecificWarnings>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996; 4554; 4116</DisableSpecificWarnings>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

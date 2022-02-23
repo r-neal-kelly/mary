@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mary\src\Mary.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Bitbool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Hashmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Div.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\OpenGL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\String.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Pool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Regex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\List.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\OS.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Varray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Element.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\File.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\GL_Texture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Event.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Wordmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\app\Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Bitmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Lang.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\app\GCC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Arena.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Allocator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\test\Test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\test\Test_Arena.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\test\Test_Vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\test\Test_String.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\test\Test_Regex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\C_String.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\UTF.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\src\Unicode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mary\test\Test_Unicode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mary\include\Mary\Mary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\src\test\Vector64_Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Bitbool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Hashmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\OpenGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Div.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\OS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Regex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Varray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\GL_Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Wordmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Lang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\App\GCC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Arena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Test\Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Test\Test_Arena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Macros\Vector_m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Macros\String_m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Namespace\Vector_In.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Namespace\Vector_Out.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\UTF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\C_String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Macros\UTF_m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mary\include\Mary\Unicode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mary\shaders\text_f.shader" />
+    <None Include="Mary\shaders\text_v.shader" />
+    <None Include="Mary\shaders\div_f.shader" />
+    <None Include="Mary\shaders\div_v.shader" />
+  </ItemGroup>
+</Project>

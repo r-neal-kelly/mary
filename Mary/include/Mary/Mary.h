@@ -1,0 +1,29 @@
+#pragma once
+
+#include <Mary/Utils.h>
+#include <Mary/Allocator.h>
+#include <Mary/UTF.h>
+#include <Mary/C_String.h>
+#include <Mary/Vector.h>
+#include <Mary/Pool.h>
+#include <Mary/Hashmap.h>
+#include <Mary/String.h>
+#include <Mary/Unicode.h>
+#include <Mary/Arena.h>
+#include <Mary/Bitbool.h>
+#include <Mary/Bitmap.h>
+#include <Mary/Regex.h>
+#include <Mary/List.h>
+#include <Mary/File.h>
+#include <Mary/OS.h>
+#include <Mary/OpenGL.h>
+#include <Mary/GL_Texture.h>
+#include <Mary/Wordmap.h>
+#include <Mary/Element.h>
+#include <Mary/Event.h>
+#include <Mary/Window.h>
+#include <Mary/Div.h>
+#include <Mary/Text.h>
+
+void Mary_Start();
+void Mary_Stop();
